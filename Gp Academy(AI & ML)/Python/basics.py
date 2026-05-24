@@ -56,6 +56,14 @@
 
 # input 
 
-print("Enter your name: ")
-name=input(); 
-print("Hello ", name)
+# print("Enter your name: ")
+# name=input(); 
+# print("Hello ", name)
+
+
+import re 
+
+txt = "The rain in the Spain stays mainly in the plain" 
+
+x = re.search("^The.*Spain$", txt)
+print(x)
